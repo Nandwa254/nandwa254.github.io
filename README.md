@@ -20,6 +20,7 @@ I use the site to bring together my work across **operations, product developmen
 - [Client Portal Application](https://github.com/Nandwa254/client-portal-app-case-study)
 - [Company Website Delivery](https://github.com/Nandwa254/company-website-case-study)
 - [Jessica Mandela — Artist Website](https://Nandwa254.github.io/projects/jessica-mandela.html)
+- [Kajiado County Revenue Compliance & Field Operations](https://Nandwa254.github.io/projects/kajiado-revenue-operations.html)
 - [HomeLink360](https://Nandwa254.github.io/projects/homelink360.html)
 - [Settle360](https://Nandwa254.github.io/projects/settle360.html)
 - [Imarika](https://Nandwa254.github.io/projects/imarika.html)
