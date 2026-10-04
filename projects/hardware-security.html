@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Hardware-Based Security System | Harryson Nandwa</title>
+<meta name="description" content="A personal engineering design study exploring authentication, timing, discrete logic, lockout, alerting and physical actuation without starting from conventional software.">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../project.css">
+</head>
+<body>
+<header class="top"><div class="container bar"><a class="brand" href="../index.html">Harryson Nandwa</a><a class="back" href="../index.html#work">← Back to portfolio</a></div></header>
+<main>
+<section class="hero"><div class="container"><p class="eyebrow">ENGINEERING · SECURITY · HARDWARE LOGIC</p><h1>Hardware-Based Security System</h1><p class="lead">A personal engineering design study in which I explored how an authentication and physical access-control concept could be broken into physical logic functions without starting from a conventional software controller.</p><div class="meta"><span>Personal engineering study</span><span>Discrete transistor logic</span><span>Security architecture</span></div></div></section>
+
+<section class="section"><div class="container grid2"><div><p class="label">Why I built it</p><h2>Understand the system from the components up.</h2></div><div class="prose"><p>I wanted to understand what sits underneath a security system when the logic is treated as a physical engineering problem rather than something hidden inside firmware.</p><p>That meant thinking about input conditioning, timing, state, validation, failure handling and the final physical response as separate functions that still had to work together.</p></div></div></section>
+
+<section class="section"><div class="container"><p class="label">Conceptual architecture</p><img src="assets/security-architecture.svg" alt="Simplified block diagram showing physical input, timing and conditioning, discrete logic, validation, lockout and reset, alerting, and actuation." style="display:block;width:100%;height:auto;margin-top:1.5rem;border-radius:18px;"></div></section>
+
+<section class="section"><div class="container grid2"><div><p class="label">My approach</p><h2>I broke the problem into physical functions.</h2></div><div class="prose"><p>A timing problem became a timing circuit. A state problem became a state circuit. A validation problem became a logic path. A lockout condition became a separate physical state.</p><p>Working this way forced me to reason about what creates, holds, changes and clears state without relying on software abstractions.</p></div></div></section>
+
+<section class="section"><div class="container"><p class="label">Functional breakdown</p><div class="flow"><div><strong>01</strong><span>physical input</span></div><div><strong>02</strong><span>timing & conditioning</span></div><div><strong>03</strong><span>discrete logic</span></div><div><strong>04</strong><span>validation</span></div><div><strong>05</strong><span>lockout / reset</span></div><div><strong>06</strong><span>alert / actuation</span></div></div></div></section>
+
+<section class="section"><div class="container grid2"><div><p class="label">The engineering challenge</p><h2>Removing software did not remove complexity.</h2></div><div class="prose"><p>As more states and conditions were added, the component count and interconnections grew quickly. That became one of the most useful parts of the exercise.</p><p>I learned that moving logic into hardware can make the behaviour very explicit, but it can also create a larger physical design that is harder to maintain, modify and validate.</p><p>That led me to explore a more efficient architecture in which dedicated logic and memory devices could handle repetitive data work while discrete circuitry remained focused on control and physical response.</p></div></div></section>
+
+<section class="section"><div class="container grid2"><div><p class="label">What I learned</p><h2>Security is a system, not just an authentication step.</h2></div><div class="prose"><p>The project made me think about timing, invalid input, state transitions, recovery, alerting, power behaviour and physical outputs as one connected system.</p><p>It also reinforced a broader habit I use in my professional work: understand the whole operating system, break it into clear responsibilities, and then decide where each responsibility belongs.</p></div></div></section>
+
+<section class="section"><div class="container grid2"><div><p class="label">Public disclosure</p><h2>Architecture is public. The security mechanism is not.</h2></div><div class="prose"><p>The original component-level schematic is intentionally not published. Exact authentication logic, wiring topology, timing parameters, recovery paths and other implementation-specific details are withheld.</p><p>This public case study demonstrates my engineering thinking and design process without exposing the complete security design.</p></div></div></section>
+
+<section class="section"><div class="container grid2"><div><p class="label">Status</p><h2>Design study / prototype architecture</h2></div><div class="prose"><p>This is an engineering exploration, not a claim that the design is production-certified, tamper-proof or ready for security-critical deployment without further testing and validation.</p><p><a href="https://github.com/Nandwa254/Nandwa254/blob/main/projects/hardware-security-system.md" target="_blank" rel="noreferrer">Read the GitHub case study →</a></p></div></div></section>
+</main>
+<footer class="footer"><div class="container"><a href="mailto:hnandwa52@gmail.com">hnandwa52@gmail.com</a> · <a href="https://github.com/Nandwa254/Nandwa254" target="_blank" rel="noreferrer">GitHub</a> · <a href="https://www.linkedin.com/in/nandwaharryson/" target="_blank" rel="noreferrer">LinkedIn</a></div></footer>
+</body>
+</html>
