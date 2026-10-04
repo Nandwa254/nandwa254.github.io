@@ -6,7 +6,7 @@ This repository contains my personal portfolio website:
 
 I use the site to bring together my work across **operations, product development, venture building and technology-enabled systems**.
 
-## What you'll find here
+## In this repository
 
 - my professional background and experience;
 - selected projects and case studies;
