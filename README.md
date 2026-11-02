@@ -4,13 +4,14 @@ This repository contains my personal portfolio website:
 
 **https://Nandwa254.github.io/**
 
-I use the site to bring together my work across **operations, product development, venture building and technology-enabled systems**.
+I use the site to bring together my work across **operations leadership, SME growth, commercial execution, programme delivery and technology-enabled systems**.
 
 ## In this repository
 
 - my professional background and experience;
 - selected projects and case studies;
-- current work on HomeLink360 and Settle360;
+- current work across the Kajiado County revenue-compliance assignment, HomeLink360 and Settle360;
+- community and NGO engagement, including Nairobi Startup Club and Sisters of Mercy;
 - examples of operations, product and systems work;
 - contact and professional links.
 
