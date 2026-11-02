@@ -1,12 +1,12 @@
 # Harryson Nandwa — Personal Portfolio
 
-This repository contains my personal portfolio website:
+This repository contains the visual presentation layer for my personal portfolio website:
 
 **https://Nandwa254.github.io/**
 
 I use the site to bring together my work across **operations leadership, SME growth, commercial execution, programme delivery and technology-enabled systems**.
 
-## In this repository
+The detailed case-study sources are maintained in the [authoritative Case Study Index](https://github.com/Nandwa254/Nandwa254/blob/main/CASE_STUDY_INDEX.md). Individual project pages on this site are summaries and entry points, not competing detailed case studies.\n\n## In this repository
 
 - my professional background and experience;
 - selected projects and case studies;
